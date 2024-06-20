@@ -1,0 +1,75 @@
+header
+{
+  .menu
+{
+  display: block;
+  width:100%;
+  height:auto;
+  background:#212121;
+  padding:2px;
+  position:relative;
+}
+.menu ul
+{
+  display: block;
+  width:100%;
+  list-style:none;
+  margin:0px;
+  padding:0px;
+  position:relative;
+}
+.menu > ul::after
+{
+  display: block;
+  width:100%;
+  clear:both;
+  content:"";
+}
+.menu ul li
+{
+  float:left;
+  width:25%;
+  height:auto;
+  display:block;
+}
+.menu ul li a
+{
+  display:block;
+  text-decoration:none;
+  color:#FAFAFA;
+  height:36px;
+  box-sizing:border-box;
+  text-align:center;
+}
+.menu ul li a:hover
+{
+  background:red;
+}
+.menu ul li ul{
+  display:none;
+  width:350px;
+  position:absolute;
+  top: 35px;
+  background:#263238;
+}
+.menu ul li:hover ul
+{
+  display:block;
+}
+.menu ul li ul li
+{
+  float:none;
+  width:100%;
+}
+}
+body {
+background-image:url('https://static.kinoafisha.info/k/movie_shots/1920x1080/upload/movie_shots/8/1/6/6621618/e9121471bc27e8a7075670eba94afdb7.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-color:#212121;
+}
+h1 {
+  font-size:100px;
+  text-align:center;
+  color:#FAFAFA;
+}
